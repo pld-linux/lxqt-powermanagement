@@ -14,6 +14,7 @@ Source0:	http://downloads.lxqt.org/lxqt/%{version}/%{name}-%{version}.tar.xz
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt5Svg-devel >= %{qtver}
 BuildRequires:	cmake >= 2.8.3
+BuildRequires:	kf5-kidletime-devel
 BuildRequires:	kf5-solid-devel
 BuildRequires:	liblxqt-devel >= 0.11.0
 BuildRequires:	libqtxdg-devel >= 2.0.0
