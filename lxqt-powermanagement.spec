@@ -6,12 +6,12 @@
 Summary:	Powermanagement daemon for LXQt desktop suite
 Summary(pl.UTF-8):	Demon zarządzania energią dla środowiska graficznego LXQt
 Name:		lxqt-powermanagement
-Version:	2.3.0
+Version:	2.4.0
 Release:	1
 License:	GPLv2 and LGPL-2.1+
 Group:		X11/Applications
 Source0:	https://github.com/lxqt/lxqt-powermanagement/releases/download/%{version}/%{name}-%{version}.tar.xz
-# Source0-md5:	21efb33bdbefdff6b9bd9332c49e5a28
+# Source0-md5:	3a2ed6c122e16e9c16b92009395ac397
 URL:		http://www.lxqt.org/
 BuildRequires:	Qt6DBus-devel >= %{qtver}
 BuildRequires:	Qt6Svg-devel >= %{qtver}
@@ -19,10 +19,10 @@ BuildRequires:	Qt6Widgets-devel >= %{qtver}
 BuildRequires:	cmake >= 3.18.0
 BuildRequires:	kf6-kidletime-devel >= 6.0.0
 BuildRequires:	kf6-solid-devel >= 6.0.0
-BuildRequires:	liblxqt-devel >= 2.3.0
+BuildRequires:	liblxqt-devel >= 2.4.0
 BuildRequires:	libxcb-devel
-BuildRequires:	lxqt-build-tools >= 2.3.0
-BuildRequires:	lxqt-globalkeys-devel >= 2.3.0
+BuildRequires:	lxqt-build-tools >= 2.4.0
+BuildRequires:	lxqt-globalkeys-devel >= 2.4.0
 BuildRequires:	qt6-linguist >= %{qtver}
 BuildRequires:	xz-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
